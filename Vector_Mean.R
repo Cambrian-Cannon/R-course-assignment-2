@@ -10,7 +10,7 @@ myVector<-function(x=numeric()){
     }
     return(myMean)
   }
-  return(list(data=x,getmean=getMean()))
+  return(list(data=x,getmean=getMean))
 }
 
 #vec<-myVector(c(1:10))
